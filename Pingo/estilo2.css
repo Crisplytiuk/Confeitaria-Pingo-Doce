@@ -1,0 +1,220 @@
+body {
+    margin: 0px;
+    width: 100%;
+    background-color: #FAEBD7;
+    Font-family: Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif;
+    font-weight: 200;
+    color:black;
+}
+
+#container {
+    width: 900px;
+    height: 1450px;
+    margin: auto;
+}
+
+nav {
+    display: inline;
+    margin: 0px;
+    background-color: #CD5C5C;
+}
+
+.topo {
+    background-color: #D2B48C;
+}
+
+.pingo {
+    height: 100px;
+    line-height: 100px;
+    /*alinha verticalmente*/
+    margin: 0px;
+    padding: 0px;
+    background-color: #982E43;
+    position: relative;
+    
+}
+
+.pingo h1 {
+    margin: 0px;
+    text-align: center;
+    Font-family: Didot, Didot LT STD, Hoefler Text, Garamond, Calisto MT, Times New Roman, serif;
+    color: #FAEBD7;
+    font-size: 50px;
+    font-weight: 200;
+   
+}
+
+
+footer {
+    top: 10px;
+    height: 100px;
+    width: 100%;
+    margin: 0px;
+    background-color: #982E43;
+    line-height: 50px;
+}
+
+footer p {
+    float: left;
+    color: #FAEBD7;
+    font-size: 20px;
+    margin: 30px;
+}
+
+#copyr {
+    float: right;
+}
+
+.cardapio {
+    display: inline-table;
+    width: 270px;
+    height: 380px;
+    transition-delay: 2s;
+   
+}
+    
+.cardapio img {
+    width: 270px;
+    height: 380px;
+    border-radius: 10px;
+  
+}
+.cardapio :hover{
+
+    transform: scale(1.1); 
+    transition-duration: 2000ms, 6000ms; 
+    transition-delay: 0ms, 6000ms;
+    
+}
+
+.cardapio figcaption {   
+    text-align: center;
+    width: 280px;
+    height: 30px;
+    font-weight: 400;
+    color: #3D0406;
+}
+.contato{
+    width:900px;   
+    margin-top:50px;
+}
+
+ article{
+ font-size: 20px;
+ font-weight: 400;
+ color:black;
+ 
+}
+#padaria{
+float: right;
+
+ 
+}
+#historia{
+ margin-top: 50px;
+}
+footer a{
+float: left;
+background-image: url(img/zap.png);
+border-radius: 32px;
+width: 50px;
+height: 50px;
+color: #FAEBD7;
+font-size: 20px;
+margin: 30px;
+
+}
+
+ul {
+   display: inline;
+   margin: 0px;
+   background-color: #982E43;
+   line-height: 50px;
+}
+
+ul li{
+   display: inline;
+   padding: 10px;
+   background-color: #982E43;
+   
+}
+.menu2{
+background-color: #982E43;
+color: #FAEBD7;
+text-align: center;
+margin: 0px 0px 20px 0px;
+height: 50px;
+border: 2px solid white;
+font-size: 17px;
+
+
+}
+a:link{
+text-decoration: none;
+color: #FAEBD7;
+font-weight: 600;
+}
+a:visited{
+color: #FAEBD7;
+}
+
+a:hover{
+color:  #3D0406;
+}
+
+@media (max-width:600px) {
+
+
+
+    #container{
+        width: 90%;
+        height: 3700px;}
+        
+      
+    .pingo h1{
+        font-size: 25px;
+    }
+   
+ footer p{
+     float: right;
+ }
+ footer{
+     height: 200px;
+    
+ }
+ #copyr{
+     float: left;
+ }
+
+ul li{
+    font-size: 10px;
+}
+.cardapio{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 30px;
+    display: block;
+
+
+}
+.cardapio :hover{
+    transform: none;}
+    
+
+  .cardapio img{
+      display: block;
+    width: 100%;
+ 
+  
+  } 
+  .cardapio figcaption { 
+      display: none;}
+
+#padaria{
+    float: unset;
+    margin: 0px;
+    text-align: center;
+   
+}
+
+}

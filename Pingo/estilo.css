@@ -1,0 +1,231 @@
+body {
+    margin: 0px;
+    width: 100%;
+    background-color: #FAEBD7;
+    Font-family: Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif;
+    font-weight: 200;
+    color:black;
+}
+
+#container {
+    width: 900px;
+    
+    margin: auto;
+}
+
+nav {
+    display: inline;
+    margin: 0px;
+    background-color: #CD5C5C;
+}
+
+.topo {
+    background-color: #D2B48C;
+}
+
+figure {
+    float: right;
+    padding: 0px;
+    margin: 0px;
+}
+
+#bolo {
+    height: 397px;
+    width: 700px;
+    display: inline;
+    margin-bottom: 30px;
+}
+
+ul {
+    width: 200px;
+    text-align: center;
+    display: inline;
+    float: left;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul li {
+    border: 2px solid #FAEBD7;
+    background-color: #982E43;
+    padding: 17PX;
+    color: #FAEBD7;
+}
+
+ul li:hover {
+    border: 2px solid #FAEBD7;
+    background-color: #3D0406;
+    padding: 17PX;
+    color: #FAEBD7;
+}
+
+.pingo {
+    height: 100px;
+    line-height: 100px;
+    /*alinha verticalmente*/
+    margin: 0px;
+    padding: 0px;
+    background-color: #982E43;
+}
+
+.pingo h1 {
+    margin: 0px;
+    text-align: center;
+    Font-family: Didot, Didot LT STD, Hoefler Text, Garamond, Calisto MT, Times New Roman, serif;
+    color: #FAEBD7;
+    font-size: 50px;
+    font-weight: 200;
+}
+
+
+
+#zap img {
+    border-radius: 120px;
+    width: 40px;
+    height: 40px;
+    float: left;
+}
+
+
+
+h2 {
+    clear: both;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 32px;
+    font-weight: 100;
+    color:black;
+}
+
+#local {
+    padding-top: 10px;
+    text-align: center;
+    display: block;
+}
+
+#local h3 {
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    font-family: 'Dancing Script', cursive;
+    color:black;
+}
+
+footer {
+    top: 10px;
+    height: 100px;
+    width: 100%;
+    margin: 0px;
+    background-color: #982E43;
+}
+
+footer p {
+    float: left;
+    color: #FAEBD7;
+    line-height: 50px;
+    font-size: 20px;
+    margin: 30px;
+}
+
+#copyr {
+    float: right;
+}
+
+a:link{
+    text-decoration: none;
+    color: #FAEBD7;
+    font-weight: 600;
+}
+a:visited{
+    color: #FAEBD7;
+}
+
+a:hover{
+    font-size: 15px;
+}
+footer a{
+float: left;
+background-image: url(img/zap.png);
+border-radius: 32px;
+width: 50px;
+height: 50px;
+color: #FAEBD7;
+font-size: 20px;
+margin: 30px;
+
+}
+footer{
+    margin-top: 50px;
+}
+
+@media (max-width:600px) {
+
+
+
+    #container{
+        width: 90%;
+        
+       
+    }
+    .pingo h1{
+        font-size: 25px;
+    }
+    h2{
+        font-size: 20px;
+        display: block;
+       text-align: center;
+       Font-family: Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif;
+   }
+   
+    iframe{
+        width: 350px;
+        height: 350px;
+        text-align: center;
+    }
+    #confeitos img{
+        display: none;
+  
+    }
+    #local h3{
+        font-size: 20px;
+        text-align: center;
+        display: block;
+        Font-family: Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif;
+    
+    }
+    #bolo{
+      display: block;
+        width: 90%;
+        height: 335px;
+        margin: auto;
+    }
+  
+    ul{  width:100%;
+      margin: auto;
+        
+    }
+ ul li{
+
+     width: 80%;
+     height: 10px;
+     font-size: 12px;
+     margin: auto;
+    
+    
+ }
+ 
+ }
+ footer p{
+     float: right;
+ }
+ footer{
+     height: 200px;
+    
+ }
+ #copyr{
+     float: left;
+ }
+
+
+}
